@@ -6,7 +6,7 @@ const LanguageItem = props => {
   return (
     <>
       <li className="item-container">
-        <img className="item-image" src={imagrUrl} alt={'${imageAltText}'} />
+        <img className="item-image" src={imageUrl} alt={'${imageAltText}'} />
       </li>
     </>
   )
