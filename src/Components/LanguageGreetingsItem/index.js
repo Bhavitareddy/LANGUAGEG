@@ -1,6 +1,6 @@
 import './index.css'
 
-const LanguageItem = props => {
+const LanguageGreetingsItem = props => {
   const {languageDetails} = props
   const {imageUrl, imageAltText} = languageDetails
   return (
@@ -11,4 +11,4 @@ const LanguageItem = props => {
     </>
   )
 }
-export default LanguageItem
+export default LanguageGreetingsItem
